@@ -52,11 +52,11 @@ and start with the initial steps again.
 
 0. Go back to the master branch on your local tree
 	* Example: `git checkout master`
-1. Delete the old topic branch
+1. Delete the old topic branch locally
+	* Example: `git branch -d MY_BRANCH_NAME`
+2. Delete the old topic branch in your github area
 	* Example: `git push origin --delete MY_BRANCH_NAME`
-2. Fetch latest changes from original repo
-	* Example: `git pull upstream`
-3. Merge in the latest changes
-	* Example: `git merge upstream/master`
+3. Pull latest changes from original repo
+	* Example: `git pull upstream master`
 4. Push the update back to your github area
 	* Example: `git push origin master`
