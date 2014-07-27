@@ -53,7 +53,7 @@ and start with the initial steps again.
 0. Go back to the master branch on your local tree
 	* Example: `git checkout master`
 1. Delete the old topic branch locally
-	* Example: `git branch -d MY_BRANCH_NAME`
+	* Example: `git branch -D MY_BRANCH_NAME`  **DISCARDS CHANGES IN MY_BRANCH_NAME!**
 2. Delete the old topic branch in your github area
 	* Example: `git push origin --delete MY_BRANCH_NAME`
 3. Pull latest changes from original repo
