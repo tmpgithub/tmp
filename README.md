@@ -26,7 +26,7 @@ These steps only need to happen once, and then you can use your local copy of yo
 	* your SSH key (in settings) must be set for this to work
 	* you may need git-proxy configuration
 6. Set up the original repo as a remote called *upstream*
-	* Example: `git remote add upstream https://github.com/pmem/tmp.git`
+	* Example: `git remote add upstream git@github.com:pmem/tmp.git`
 
 ### Making a change
 
