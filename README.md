@@ -18,7 +18,7 @@ These steps only need to happen once, and then you can use your local copy of yo
 0. Login to the github web interface with your account
 1. Navigate to pmem.io/tmp, click on View on GitHub button
 2. Click on the Fork button in the upper right to create your own fork
-3. Navigate to your fork, the repo in under your account
+3. Navigate to your fork, the repo is under your account
 4. Grab the *clone URL* from box the lower right
 	* Click **SSH** and grab that URL, like `git@github.com:MY_GITHUB_ACCOUNT/tmp.git`
 5. Clone your repo to your local machine:
