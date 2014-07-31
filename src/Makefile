@@ -5,8 +5,8 @@ DEPS = tmpsample.h
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-tmpsample: tmpsample.o hellofunc.o 
-	gcc -o tmpsample tmpsample.o hellofunc.o -I.
+tmpsample: tmpsample.o hellofunc.o datetime.o
+	gcc -o tmpsample tmpsample.o hellofunc.o datetime.o -I.
 
 .PHONY: clean
 
