@@ -3,7 +3,7 @@
 
 void printTmpSample(void) {
 
-  printf("Hello tmp repo sample!\n");
+  printf("Hello tmp repo sample!!\n");
 
   return;
 }
